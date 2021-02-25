@@ -1,0 +1,23 @@
+.page_item-side-distance_narrow{
+    width: calc(100% - 96px);
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 1023px){
+    .page_item-side-distance_narrow{        
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 767px){
+    .page_item-side-distance_narrow{        
+        width: calc(100% - 42px);
+    }
+}
+
+@media screen and (max-width: 424px){
+    .page_item-side-distance_narrow{        
+        width: calc(100% - 32px);
+        min-width: 288px;
+    }
+}

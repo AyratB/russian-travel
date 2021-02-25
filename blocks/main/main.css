@@ -1,0 +1,26 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 92px;
+}
+
+@media screen and (max-width: 1023px){
+    .main{
+        gap: 88px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .main{
+        gap: 76px;
+    }
+}
+
+@media screen and (max-width: 424px){
+    .main{
+        gap: 64px;
+    }
+}

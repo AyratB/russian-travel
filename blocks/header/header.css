@@ -1,0 +1,25 @@
+.header{    
+    margin-top: 24px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1279px){
+    .header{
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header{
+        margin-top: 22px;
+    }
+}
+
+@media screen and (max-width: 424px){
+    .header{
+        margin-top: 16px;
+    }
+}
