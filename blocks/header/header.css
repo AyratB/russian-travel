@@ -1,4 +1,6 @@
 .header{    
+    width: calc(100% - 96px);
+    max-width: 1184px;
     margin-top: 24px;
     margin-bottom: 56px;
     display: flex;
@@ -12,14 +14,23 @@
     }
 }
 
+@media screen and (max-width: 1023px){
+    .header{        
+        width: calc(100% - 48px);
+    }
+}
+
 @media screen and (max-width: 767px){
     .header{
+        width: calc(100% - 42px);
         margin-top: 22px;
     }
 }
 
 @media screen and (max-width: 424px){
     .header{
+        width: calc(100% - 32px);
+        min-width: 288px;
         margin-top: 16px;
     }
 }
