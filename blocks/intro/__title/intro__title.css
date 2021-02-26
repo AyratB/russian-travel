@@ -14,14 +14,11 @@
     .intro__title{
         width: 100%;
         font-size: 44px;
-
     }
 }
 
 @media screen and (max-width: 424px){
-    .intro__title{
-        width: 100%;
-
+    .intro__title{        
         font-size: 32px;
         line-height: 35px;
     }

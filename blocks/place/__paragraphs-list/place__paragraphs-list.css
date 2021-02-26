@@ -1,5 +1,4 @@
-.place__paragraphs-list{
-    list-style-type: none;
+.place__paragraphs-list{    
     margin: 0;
     padding: 0;
     display: flex;
