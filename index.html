@@ -13,8 +13,14 @@
             <header class="header">
                 <div class="header__logo"></div>
                 <ul class="header__lang-links">
-                    <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
-                    <li><a class="header__lang-link" href="#">En</a></li>
+                    <li><a class="header__lang-link header__lang-link_active" href="#" target="_self">Ru</a></li>
+                    <li><a class="header__lang-link" href="#" target="_self">En</a></li>
+                    <!--
+                    Ваше замечание: Обе ссылки не уводят пользователя со страницы, они только переключают язык содержимого, поэтому атрибут target нужно удалить. (в обеих ссылках)
+                    Автоматическая система тестирования Яндекса не пропускает ссылку без атрибута target:
+                        В файле index.html на строке 16 атрибуту target не хватает значения.
+                        В файле index.html на строке 17 атрибуту target не хватает значения.                   
+                    -->
                 </ul>
             </header>
             <main class="main">
